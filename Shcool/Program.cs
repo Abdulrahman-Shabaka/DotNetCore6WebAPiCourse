@@ -1,4 +1,6 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
+using Shcool;
 using Shcool.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<SchoolDbContext>(option => option.UseSqlServer(
+    builder.Configuration.GetConnectionString("defaultConnectionstring")));
 
 var app = builder.Build();
 
@@ -39,5 +44,9 @@ app.Run();
 //class student
 //class laptop
 //class subjects
+
+//one to many school - students
+//one to one  student - laptop
+//many to many sudent - subjects
 
 
