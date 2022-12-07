@@ -1,43 +1,30 @@
 ﻿<Properties StartupConfiguration="{8DF2D36F-2F08-48C6-BDC1-4B82FA15ECAF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Shcool PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shcool/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shcool/Controllers/SchoolController.cs">
     <Files>
-      <File FileName="Shcool/SchoolDbContext.cs" Line="18" Column="6" />
-      <File FileName="Shcool/Entities/BaseEntity.cs" Line="1" Column="1" />
-      <File FileName="Shcool/appsettings.json" Line="12" Column="2" />
-      <File FileName="Shcool/Program.cs" Line="20" Column="37" />
+      <File FileName="Shcool/Controllers/WeatherForecastController.cs" Line="7" Column="29" />
+      <File FileName="Shcool/Controllers/SchoolController.cs" Line="29" Column="7" />
+      <File FileName="Shcool/Program.cs" Line="1" Column="1" />
+      <File FileName="Shcool/SchoolDbContext.cs" Line="12" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Shcool" expanded="True">
             <Node name="Shcool" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="SchoolController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Shcool" expanded="True">
-            <Node name="Shcool" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Shcool PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
