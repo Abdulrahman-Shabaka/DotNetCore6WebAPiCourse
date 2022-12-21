@@ -13,11 +13,11 @@ namespace Shcool.Entities
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public Laptop laptop { get; set; }
+        public Laptop? laptop { get; set; }
 
         [ForeignKey(nameof(school))]
         public int SchoolId { get; set; }
-        public School school { get; set; }
+        public School? school { get; set; }
 
         public List<StudentSubject> studentSubjects { get; set; }
     }
